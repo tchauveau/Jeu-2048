@@ -214,6 +214,7 @@ t_value Board::countEmpty() const {
     return count;
 }
 
+//judge if the game ended
 bool Board::gameEnded() {
     bool ended = true;
     if (countEmpty() > 0) {
